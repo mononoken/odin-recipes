@@ -1,3 +1,47 @@
+html {
+  font-family: 'Courier New', monospace;
+}
+
+body {
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p,
+ol,
+ul,
+li {
+  font-size: 24px;
+}
+
+li {
+  padding: 6px;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+ul > li:before {
+  content: '- ';
+}
+
 .header-img {
   max-width: 50%;
 }

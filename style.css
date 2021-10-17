@@ -73,6 +73,10 @@ strong {
   font-weight: bold;
 }
 
+nav {
+  margin: 12px 0px 12px 0px;
+}
+
 .header-img {
   max-width: 50%;
 }

@@ -1,9 +1,14 @@
+:root {
+  --main-bg-color: rgb(42, 42, 42);
+  --main-font-color: rgb(220, 220, 220);
+}
+
 html {
   font-family: 'Courier New', monospace;
 }
 
 body {
-
+  background-color: var(--main-bg-color);
 }
 
 h1,
@@ -12,6 +17,7 @@ h3,
 h4 {
   font-weight: bold;
   font-size: 24px;
+  color: var(--main-font-color);
 }
 
 h1 {
@@ -22,11 +28,28 @@ h2 {
   font-size: 36px;
 }
 
+a,
 p,
 ol,
 ul,
 li {
   font-size: 24px;
+}
+
+p,
+ol,
+ul,
+li {
+  color: var(--main-font-color);
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgreen;
 }
 
 li {

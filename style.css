@@ -69,6 +69,10 @@ p {
   margin: 24px;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .header-img {
   max-width: 50%;
 }
